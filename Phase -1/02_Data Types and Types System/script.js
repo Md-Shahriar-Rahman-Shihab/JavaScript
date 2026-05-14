@@ -15,6 +15,7 @@ data 2 types:
 
 let a = 12;
 let b = a;
+// b=b+3;
 
 a= a+2;
 
@@ -22,10 +23,20 @@ a= a+2;
 
 let numArray1 = [1,2,3];
 let numArray2 = numArray1;
-// numArray2.pop();  
-// numArray1 = [8,7]
+numArray2.pop();  
+numArray1 = [8,7]
 
-/**first numArray1 and numArray2 value is [1,2,3] but numArray2 is reference numArray1 [akn theke numArray1 er value numArray2 er o so numArray2 change korle numArray1 er value change hoi na that means tor bou (numArray2) amr bou (numArray1) kintu amr bou(numArray1) tor bou(numArray2) na].  If we change the value of numArray2 its change the value of numArray1 also but if we change the value of numArray1 its not effect any in numArray2 */
+/**first numArray1 and numArray2 value is [1,2,3] but numArray2 is reference numArray1 [akn theke numArray1 er value numArray2 er o so numArray2 change korle numArray1 er value change hoi. If we change the value of numArray2 its change the value of numArray1 also if we change the value of numArray1 its  effect the value of numArray2 */
+
+/**
+ numArray1 ──► [1,2,3]
+ numArray2 ──┘
+
+ numArray1 = [8,7];
+ numArray1 ──► [8,7]
+ numArray2 ──► [1,2]
+
+ */
 
 //Strings
 
@@ -57,7 +68,7 @@ let numArray2 = numArray1;
 
 //null
 /**
- * ami jene bujhe kono value dai ni
+ * ami jene bujhe kono value null dici
  * 
  * let selectedStudents = null
  * let selectedStudents = shihab
@@ -84,7 +95,7 @@ let c;
  * Create unique identifiers
  * 
  * 
- * future a amra kono libraries use korbo akn ei case a libraries er moddhe kichu fields thake jar similar kichu create kori and vul bosoto amader create kora fields sei library er original fields ke o change kore dai
+ * future a amra kono libraries use korbo akn ei case a libraries er moddhe kichu fields thake jar similar kichu create kore feli and vul bosoto amader create kora fields sei library er original fields ke o change kore dai
 */
 
 /* 
